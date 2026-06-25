@@ -1,0 +1,11 @@
+ticket_id,task_type,title,owner,status,priority,due_date,customer,related_system,progress,issue_summary,next_action
+SX-101,Incident,NAC 인증 실패 원인 분석,박민준,진행 중,High,2026-05-28,고객사 A,Genians NAC,70%,사용자 그룹 매핑 오류 가능성 확인,정책 그룹 조건 재검토 후 고객과 적용 여부 확인
+SX-102,Incident,지점 B Agent Offline 확인,김도윤,진행 중,High,2026-05-28,고객사 B,Genians NAC Agent,80%,방화벽 정책 수정 후 일부 단말만 정상화,잔여 6대 Agent 서비스 및 로컬 방화벽 확인
+SX-103,Security Review,EDR ML 탐지 이벤트 분석,이서연,모니터링,Medium,2026-05-29,고객사 C,Genians EDR,60%,"단일 단말 ML 탐지, 오탐 가능성 존재",파일 해시와 반복 탐지 여부 모니터링
+SX-104,Support,SSL 인증서 경고 문의 대응,정하린,대기,Medium,2026-05-28,고객사 D,Genians Console,30%,인증서 교체 여부 확인 필요,고객 회신 수신 후 인증서 만료일 및 체인 확인
+SX-105,Change,정책 미적용 단말 점검,박민준,진행 중,Medium,2026-05-29,고객사 A,Genians Policy,50%,정책 저장 후 일부 단말에 반영 안 됨,변경정책적용 여부와 Agent 상태 비교
+SX-106,Documentation,고객 회신용 1차 답변 정리,정하린,완료,Low,2026-05-27,공통,Customer Support,100%,고객별 진행 상황 정리 완료,내일 오전 업데이트 사항 반영
+SX-107,Monitoring,EDR 탐지 반복 여부 모니터링,이서연,진행 중,Low,2026-05-28,고객사 C,Genians EDR,40%,"추가 탐지 없음, 추적 필요",내일 오전 이벤트 재확인
+SX-108,Infrastructure,방화벽 정책 변경 영향 확인,김도윤,완료,High,2026-05-27,고객사 B,Network,100%,Agent KeepAlive 관련 통신 일부 차단 확인,수정 후 잔여 단말 상태 모니터링
+SX-109,Internal,일일 업무보고서 작성,정하린,진행 중,Low,2026-05-27,내부,Reporting,60%,각 담당자 진행상황 취합 중,메신저 대화와 티켓 상태 기반 보고서 초안 작성
+SX-110,Follow-up,NAC 인증 실패 고객 미팅 준비,박민준,예정,Medium,2026-05-28,고객사 A,Genians NAC,10%,내일 오전 고객과 정책 적용 결과 확인 예정,확인 항목 및 예상 질문 정리
